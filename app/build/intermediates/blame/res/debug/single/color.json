@@ -4,6 +4,10 @@
         "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_edittext.xml"
     },
     {
+        "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
         "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_track.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
         "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\color\\common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -64,7 +72,15 @@
         "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
+        "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
         "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
         "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\color\\common_plus_signin_btn_text_light.xml"
     }
 ]

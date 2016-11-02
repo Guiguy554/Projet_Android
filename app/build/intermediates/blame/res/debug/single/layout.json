@@ -144,6 +144,10 @@
         "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scoring_layout.xml",
+        "source": "P:\\ANDROID\\TD5_PROJET\\app\\src\\main\\res\\layout\\scoring_layout.xml"
+    },
+    {
         "merged": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "P:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
     },

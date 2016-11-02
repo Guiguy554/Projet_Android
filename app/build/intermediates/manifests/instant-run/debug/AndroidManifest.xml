@@ -26,6 +26,8 @@
         </activity>
         <activity android:name="com.example.lg403756.td5_projet.MainActivity2" >
         </activity>
+        <activity android:name="com.example.lg403756.td5_projet.ScoreActivity" >
+        </activity>
     </application>
 
 </manifest>

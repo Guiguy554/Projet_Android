@@ -1,4 +1,4 @@
-#Tue Oct 18 16:39:07 CEST 2016
+#Wed Nov 02 12:01:38 CET 2016
 base.0=P\:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ab1e8cc4809e228202130a727ac8ad1b2f7fd7e3
 renamed.1=classes2.dex
 renamed.0=classes.dex

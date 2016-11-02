@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.GridView;
@@ -35,16 +36,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         ArrayList<ItemData> list=new ArrayList<>();
-        list.add(new ItemData("Tuture",R.drawable.sportcar0));
-        list.add(new ItemData("VionVion",R.drawable.airplane0));
-        list.add(new ItemData("MionMion",R.drawable.lorry0));
-        list.add(new ItemData("NeyNey",R.drawable.horse0));
+        list.add(new ItemData("voiture",R.drawable.voiture1));
+        list.add(new ItemData("avion",R.drawable.avion1));
+        list.add(new ItemData("camion",R.drawable.camion1));
+        list.add(new ItemData("cheval",R.drawable.cheval1));
+        list.add(new ItemData("velo",R.drawable.velo1));
+        //ItemData idT = new ItemData("V",R.drawable.avion4);
+        //idT.
+
         Spinner sp=(Spinner)findViewById(R.id.spinner);
         SpinnerAdapter adapter=new SpinnerAdapter(this,
                 R.layout.spinner_layout,R.id.txt,list);
         sp.setAdapter(adapter);
-
+        sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
+                Object item = parent.getItemAtPosition(pos);
+            }
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
 
         /*final GridView g = (GridView) findViewById(R.id.grid);
         ArrayAdapter<String> adapterG = new ArrayAdapter<String>(this,
@@ -84,11 +96,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int radioButtonID = rg.getCheckedRadioButtonId();
                 View radioButton = rg.findViewById(radioButtonID);
-                int idx = rg.indexOfChild(radioButton);
 
+                int idx = rg.indexOfChild(radioButton)+1;
+                Spinner sp = (Spinner) findViewById(R.id.spinner);
+                ItemData idT = (ItemData)sp.getSelectedItem();
+                String s = idT.getText().toString();             //String s = tsp.getText().toString() ;
                 Intent i = new Intent(MainActivity.this,MainActivity2.class);
+
+
                 i.putExtra("color",idx);
                 i.putExtra("lvl",sk.getProgress());
+                i.putExtra("name",s);
                 startActivity(i);
             }
         });
