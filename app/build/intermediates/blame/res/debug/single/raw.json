@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\raw\\mario.wav",
+        "source": "C:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\src\\main\\res\\raw\\mario.wav"
+    },
+    {
+        "merged": "C:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\raw\\test.mp3",
+        "source": "C:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\src\\main\\res\\raw\\test.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\build\\intermediates\\res\\merged\\debug\\raw\\app.mp3",
+        "source": "C:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\src\\main\\res\\raw\\app.mp3"
+    }
+]

@@ -90,6 +90,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        final TextView t2= (TextView) findViewById(R.id.numberSeeker2);
+        t2.setText("0");
+        final SeekBar sk2=(SeekBar) findViewById(R.id.seekBar2);
+        sk2.setMax(3);
+        sk2.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                // TODO Auto-generated method stub
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+                // TODO Auto-generated method stub
+            }
+
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress,boolean fromUser) {
+                // TODO Auto-generated method stub
+                t2.setText(String.valueOf(progress));
+                //Toast.makeText(getApplicationContext(), String.valueOf(progress),Toast.LENGTH_LONG).show();
+
+            }
+        });
+
         Button b = (Button)findViewById(R.id.button);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
 
                 i.putExtra("color",idx);
                 i.putExtra("lvl",sk.getProgress());
+                i.putExtra("diff", sk2.getProgress());
                 i.putExtra("name",s);
                 startActivity(i);
             }

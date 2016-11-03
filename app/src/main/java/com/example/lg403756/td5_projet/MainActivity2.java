@@ -1,12 +1,15 @@
 package com.example.lg403756.td5_projet;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
+import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -26,6 +29,8 @@ public class MainActivity2 extends AppCompatActivity {
     int time = 15;
     Thread timer;
     int status = 1; // 1: alive ; -1: dead ; 0: paused
+    private MediaPlayer mMediaPlayer;
+
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -34,63 +39,83 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         Intent i = getIntent();
         int lvl = i.getIntExtra("lvl",0);
+        int diff = i.getIntExtra("diff",0);
         String resName = i.getStringExtra("name");
         int colorID = i.getIntExtra("color",1);
+        mMediaPlayer = MediaPlayer.create(this, R.raw.mario);
 
-        int difficulty = 1;
-        switch (lvl) {
-            case 0 :case 1 :case 2 :case 3 :
-                difficulty = 1;
-                break;
-            case 4 :case 5 :case 6 :
-                difficulty = 2;
-                break;
-            case 7:case 8 :case 9:case 10:
-                difficulty = 3;
-                break;
-            default:
-                difficulty = 1;
-        }
-
-
-        View bw = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),lvl);
-        View bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),lvl);
-        View bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),lvl);
-        View bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),lvl);
-        View bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),lvl);
+        int vitesse = 1;
         int increment = 1;
 
-        switch (difficulty){
+        switch (lvl) {
+            case 0 :case 1 :
+                vitesse = 1;
+                break;
+            case 2 :
+                vitesse = 2;
+                break;
+            case 3 :
+                vitesse = 3;
+                break;
+            case 4 :
+                vitesse = 4;
+                break;
+            case 5 :
+                vitesse = 5;
+                break;
+            case 6 :
+                vitesse = 6;
+                break;
+            case 7:
+                vitesse = 7;
+                break;
+            case 8 :
+                vitesse = 8;
+                break;
+            case 9: case 10:
+                vitesse = 9;
+                break;
+            default:
+                vitesse = 1;
+        }
+
+        View bw = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),vitesse);
+        View bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),vitesse);
+        View bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),vitesse);
+        View bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),vitesse);
+        View bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID),"drawable",this.getPackageName())),vitesse);
+
+        switch (diff){
             case 1 :
                 if(colorID == 5){
                     increment = -1;
                 }
-                bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),lvl);
-                bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),lvl);
-                bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),lvl);
-                bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),lvl);
+                bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),vitesse);
+                bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),vitesse);
+                bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),vitesse);
+                bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),vitesse);
                 break;
             case 2:
-                bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),lvl);
-                bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),lvl);
-                bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),lvl);
-                bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),lvl);
+                bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),vitesse);
+                bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),vitesse);
+                bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),vitesse);
+                bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),vitesse);
                 break;
             case 3:
-                bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(getRandomStringWithExclusion(new Random(),0,4,resName)+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),lvl);
-                bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(getRandomStringWithExclusion(new Random(),0,4,resName)+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),lvl);
-                bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(getRandomStringWithExclusion(new Random(),0,4,resName)+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),lvl);
-                bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(getRandomStringWithExclusion(new Random(),0,4,resName)+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),lvl);
+                bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(getRandomStringWithExclusion(new Random(),0,4,resName)+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),vitesse);
+                bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(getRandomStringWithExclusion(new Random(),0,4,resName)+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),vitesse);
+                bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(getRandomStringWithExclusion(new Random(),0,4,resName)+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),vitesse);
+                bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(getRandomStringWithExclusion(new Random(),0,4,resName)+Integer.toString(getRandomWithExclusion(new Random(),1,5,colorID)),"drawable",this.getPackageName())),vitesse);
 
                 break;
             default :
                 if(colorID == 5){
                     increment = -1;
                 }
-                bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),lvl);
-                bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),lvl);
-                bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),lvl);
-                bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),lvl);
+                bw2 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),vitesse);
+                bw3 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),vitesse);
+                bw4 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),vitesse);
+                bw5 = new BouncingBallView(this,(BitmapDrawable)getDrawable(getResources().getIdentifier(resName+Integer.toString(colorID+increment),"drawable",this.getPackageName())),vitesse);
                 break;
         }
 
@@ -112,37 +137,23 @@ public class MainActivity2 extends AppCompatActivity {
                         score += 1;
                         TextView t = (TextView) findViewById(R.id.score);
                         t.setText(Integer.toString(score));
-                        /*if (score == 10) {
-                            Intent i2 = new Intent(MainActivity2.this, ScoreActivity.class);
-                            i2.putExtra("score", score);
-                            startActivity(i2);
-                        }*/
+
+                        mMediaPlayer.start();
+
+                        Vibrator mVibrator = (Vibrator) getSystemService(Activity.VIBRATOR_SERVICE);
+                        mVibrator.vibrate(100);
                     }
                 }
-                /*
-                score +=1;
-                TextView t = (TextView) findViewById(R.id.score);
-                t.setText(Integer.toString(score));
-                if(score == 10){
-                    Intent i2 = new Intent(MainActivity2.this,ScoreActivity.class);
-                    i2.putExtra("score",score);
-                    startActivity(i2);
-                }*/
                 bv = null;
                 return true;
             }
         };
         bw.setOnTouchListener(myListener);
-        //bw2.setOnTouchListener(myListener);
-
-
-        //setContentView(bw);
         addContentView(bw, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
         addContentView(bw2, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
         addContentView(bw3, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
         addContentView(bw4, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
         addContentView(bw5, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT));
-        //bw.setBackgroundColor(Color.WHITE);
 
         timer = new Thread(new Runnable() {
             @Override
@@ -151,8 +162,6 @@ public class MainActivity2 extends AppCompatActivity {
                 int min = time/60;
                 while(time > 0){
                     time -= 1;
-                    /*TextView t = (TextView) findViewById(R.id.timeLeft);
-                    t.setText( Integer.toString(min) + " : " + Integer.toString(sec));*/
 
                     try {
                         runOnUiThread(new Runnable() {

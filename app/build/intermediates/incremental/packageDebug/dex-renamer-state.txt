@@ -1,7 +1,7 @@
-#Wed Nov 02 12:01:38 CET 2016
-base.0=P\:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ab1e8cc4809e228202130a727ac8ad1b2f7fd7e3
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=P\:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ae9596f4bfd678d97a99cd90c3c7a83cd4646a01\\classes.dex
-base.1=P\:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ae9596f4bfd678d97a99cd90c3c7a83cd4646a01
-file.0=P\:\\ANDROID\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ab1e8cc4809e228202130a727ac8ad1b2f7fd7e3\\classes.dex
+#Thu Nov 03 17:34:22 CET 2016
+base.0=C\:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_45661b10e29fc9a4c70dceba5e0b88bc7f88f5cd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_eab15445038f7ecf83bce768146822acc0695788\\classes.dex
+base.1=C\:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_eab15445038f7ecf83bce768146822acc0695788
+file.0=C\:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_45661b10e29fc9a4c70dceba5e0b88bc7f88f5cd\\classes.dex

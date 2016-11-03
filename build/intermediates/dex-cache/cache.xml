@@ -3,156 +3,156 @@
 
     <item
         is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="db707a16d6205015b3d524a254a8d3eeeea762cc">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ae9596f4bfd678d97a99cd90c3c7a83cd4646a01\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b25352723e5b8bcdb859cf4bbc9722d43f0a737a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9e7cfadffdaf6bd7a953fdb6371f2dce48dac61d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4a6a51b5beb915a5fa090338904ec89f3744cef9">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ab1e8cc4809e228202130a727ac8ad1b2f7fd7e3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_ffc3d807545d4da26b6d2fc285b42f56d71b2932\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_12ff466579825a671d510274908329847319875a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_a6292e117f3a22bc6ffbef37565b57ebe0b1ed88\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_94e51430df102d90c99b726c8d5384303c47d2e7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_0680908c184964fa111ac3685e2c0201e85607d0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_729f51d559439683e1567589a55fccb7f09e90c0\classes.dex" />
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_a1e84621d80404be31406a05526f6664ae278f78\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_f46dad944c9452295d74a161aadd2676de176488\classes.dex" />
+        sha1="8d372ac69e2e474bb069fd7efa56e90e4d91f87e">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_45661b10e29fc9a4c70dceba5e0b88bc7f88f5cd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_0b7a90df4d9257605612f074f5043ca1b3362774\classes.dex" />
+        sha1="fecc5639374e0aca9222a5f51137436f465daff8">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eab15445038f7ecf83bce768146822acc0695788\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_8529fcc3834d06c9b4bc7527dea1a9208d6e2653\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_edad46712e0727fb74be962c3e77e2109060b5c4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_675fad13df3ee271bc7623cd7f7d53faf731e988\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\lg403756\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_c8dcadb0dc78c1aa0ff7169add2514c1f9eafadf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="P:\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="P:\ANDROID\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_e120c98f62e2813b6dd1c8cfa7eb7e8ddacae97b\classes.dex" />
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0f84b62277bb1dbca430222dac202fa0203f358f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_dfed57dd7dced6b393e518f31f596fc22f19b0ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_7389a7a497548290cae6fda1a38a8d978204ed8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_16b10d402bb2298b63a75c1886df03046adb2bf3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_bf163c0d028a0a7a2ebb4a235b64d4a03e69389b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_eafb89be94b6c214f701dcc2b551d91a6c98905f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_32b6973bf0797c9367ae139d60a0046ca14609fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_a2145fe0245208972008c896116735ea2f590c1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d17cf39f13587d977f5087a8c4980402b5734758\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_c4a91f7c63292c6fc4861a47f8beaaf57ec9561b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_01031c3e68a67e98c2fe63594a6c81ac067749b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c42ca1085f38ec84a24fae1d1429f3386e9afc56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_462222fa2b219ec45366cb8002e2c5290f9c944c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_6326924a2c145b5de7c3b056e8d95b3d0026411e\classes.dex" />
     </item>
 
 </items>

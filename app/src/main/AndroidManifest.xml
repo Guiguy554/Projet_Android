@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lg403756.td5_projet">
 
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-sdk android:minSdkVersion="24"
         android:targetSdkVersion="24" />
     <application
