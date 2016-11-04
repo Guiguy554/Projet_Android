@@ -143,8 +143,8 @@ public class MainActivity extends AppCompatActivity {
     private void changeColors(GridView g) {
         g.getChildAt(0).setBackgroundColor(Color.BLACK);
         g.getChildAt(1).setBackgroundColor(Color.GREEN);
-        g.getChildAt(2).setBackgroundColor(Color.BLUE);
+        g.getChildAt(2).setBackgroundColor(Color.YELLOW);
         g.getChildAt(3).setBackgroundColor(Color.RED);
-        g.getChildAt(4).setBackgroundColor(Color.YELLOW);
+        g.getChildAt(4).setBackgroundColor(Color.BLUE);
     }
 }

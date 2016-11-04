@@ -1899,9 +1899,9 @@ containing a value of this type.
         public static final int radio=0x7f0c003e;
         public static final int radioButton=0x7f0c005e;
         public static final int radioButton2=0x7f0c005f;
-        public static final int radioButton3=0x7f0c0061;
-        public static final int radioButton5=0x7f0c0060;
-        public static final int radioButton6=0x7f0c0062;
+        public static final int radioButton3=0x7f0c0060;
+        public static final int radioButton5=0x7f0c0063;
+        public static final int radioButton6=0x7f0c0061;
         public static final int radioGroup=0x7f0c005d;
         public static final int score=0x7f0c0066;
         public static final int scoreList=0x7f0c0077;
@@ -1922,7 +1922,7 @@ containing a value of this type.
         public static final int search_voice_btn=0x7f0c0052;
         public static final int seekBar=0x7f0c0058;
         public static final int seekBar2=0x7f0c005b;
-        public static final int seekBar3=0x7f0c0063;
+        public static final int seekBar3=0x7f0c0062;
         public static final int select_dialog_listview=0x7f0c0053;
         public static final int shortcut=0x7f0c003d;
         public static final int showCustom=0x7f0c000f;

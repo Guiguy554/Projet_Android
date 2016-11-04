@@ -1,37 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
+    abi="x86"
     api-level="23"
-    density="xxxhdpi"
+    density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="366250663267821"
+    timestamp="438930741648796"
     token="8906661943350923809"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="234" />
-    <task
-        name="instant-run-dex"
         duration="0" />
     <task
+        name="instant-run-dex"
+        duration="14" />
+    <task
         name="instant-run-transform"
-        duration="36" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="366250663267821"
+        timestamp="438644540334190"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="438859784034936"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="438930741648796"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

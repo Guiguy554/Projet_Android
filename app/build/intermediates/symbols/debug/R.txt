@@ -606,9 +606,9 @@ int id progress_horizontal 0x7f0c0006
 int id radio 0x7f0c003e
 int id radioButton 0x7f0c005e
 int id radioButton2 0x7f0c005f
-int id radioButton3 0x7f0c0061
-int id radioButton5 0x7f0c0060
-int id radioButton6 0x7f0c0062
+int id radioButton3 0x7f0c0060
+int id radioButton5 0x7f0c0063
+int id radioButton6 0x7f0c0061
 int id radioGroup 0x7f0c005d
 int id score 0x7f0c0066
 int id scoreList 0x7f0c0077
@@ -629,7 +629,7 @@ int id search_src_text 0x7f0c004e
 int id search_voice_btn 0x7f0c0052
 int id seekBar 0x7f0c0058
 int id seekBar2 0x7f0c005b
-int id seekBar3 0x7f0c0063
+int id seekBar3 0x7f0c0062
 int id select_dialog_listview 0x7f0c0053
 int id shortcut 0x7f0c003d
 int id showCustom 0x7f0c000f

@@ -76,10 +76,11 @@
         android:layout_height="wrap_content"
         android:checkedButton="@+id/radioButton"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true">
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/spinner">
         <RadioButton
             android:text="Black"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_marginTop="41dp"
@@ -88,34 +89,34 @@
             android:checked="true" />
         <RadioButton
             android:text="Green"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:id="@+id/radioButton2"
             android:layout_alignEnd="@+id/spinner" />
 
         <RadioButton
-            android:text="Yellow"
-            android:layout_width="wrap_content"
+            android:text="Blue"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton5"
+            android:id="@+id/radioButton3"
             android:layout_alignBaseline="@+id/radioButton3"
             android:layout_alignBottom="@+id/radioButton3"
             android:layout_alignEnd="@+id/textView" />
 
         <RadioButton
             android:text="Red"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/radioButton6"
             android:layout_above="@+id/seekBar3"
             android:layout_alignStart="@+id/radioButton3" />
 
         <RadioButton
-            android:text="Blue"
-            android:layout_width="72dp"
+            android:text="Yellow"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioButton5"
             android:layout_alignBottom="@+id/radioGroup"
             android:layout_toStartOf="@+id/numberSeek"
             android:layout_marginBottom="33dp" />

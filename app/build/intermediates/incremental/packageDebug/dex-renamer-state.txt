@@ -1,4 +1,4 @@
-#Thu Nov 03 17:34:22 CET 2016
+#Fri Nov 04 13:41:04 CET 2016
 base.0=C\:\\Users\\Guiguy\\Desktop\\TD5_PROJET\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_45661b10e29fc9a4c70dceba5e0b88bc7f88f5cd
 renamed.1=classes.dex
 renamed.0=classes2.dex
