@@ -1,9 +1,14 @@
 # Projet Android
 ## L'Avancement du projet 
 
-  L'écran de sélection est quasiment terminée, il ne reste que quelque petit réglage à faire. 
-  L'écran de jeu quand à lui avance petit à petit, nous avons avanos donc réussi à faire en sorte que l'image qui soit en mouvement soit celle que l'on choisie dans le drawable et aussie réussi le fait de mettre une deuxième image en mouvement, avec un mouvement différent de la première.
+  Le projet est fini.
   
-  Nous avons géré la position aléatoire au départ, intégré les deux écrans entre eux, mis les images "secondaires" dans une autre couleurs et géré le score dans le commit du 02/11/2016
+## Description du projet
   
-  Il nous reste donc à ajouter un son et/ou une vibration lorsque la bonne image est touché.
+  Le but du jeu est de cliquer le plus de fois sur l'objet que l'on choisit sur l'écran de séléction dans un laps de temps (10 secondes).
+  Pour commencer vous devrez choisir l'objet que vous voulez : voiture, avion, velo, cheval (ou poney),...
+  Ensuite il reste a choisir sa couleur.
+  Et enfin pour finir la vitesse et le niveau de difficulté. Il existe trois niveaux de difficulté : 
+    - Le premier est notre objet avec 4 autres objets du même modèle et de couleur similaire mais différentes de celle du notre.
+    - Le deuxième, cette fois les autres objets seront de couleur différentes les uns des autres.
+    - Le troisième, cette fois les autres objets seront de modèless et de couleurs différentes.
