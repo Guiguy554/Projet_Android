@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d2f5836d8ddacd92de4b8316691f4aa95959ebf1">
+        sha1="f178832ba5f5eac12d4ccbef52512d099cc11f77">
         <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_45661b10e29fc9a4c70dceba5e0b88bc7f88f5cd\classes.dex" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="92667ed7526b231d66ac55124a7988d15bc3d923">
+        sha1="6f2c4bbb16b80161adedd262fdf496aa29d574b7">
         <dex dex="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eab15445038f7ecf83bce768146822acc0695788\classes.dex" />
     </item>
     <item
