@@ -2,36 +2,50 @@
 <instant-run
     abi="x86"
     api-level="23"
-    density="xxhdpi"
+    density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="32760782036543"
-    token="8906661943350923809"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="533191046280256"
+    token="767953867856745218"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2056" />
+        duration="4045" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="61" />
     <task
         name="instant-run-transform"
-        duration="543" />
+        duration="106" />
     <task
         name="verifier"
-        duration="148" />
+        duration="17" />
 
     <artifact
-        location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="32760782036543"
+        timestamp="532875155988757"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\outputs\apk\app-debug.apk"
+            location="P:\LP_DAM\ANDROID\TD5_PROJET\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="533156782726416"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\builds\debug\533156782726416\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="533191046280256"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

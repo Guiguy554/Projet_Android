@@ -1,87 +1,89 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:5:5-65
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:5:22-63
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:5:22-63
 uses-sdk
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:6:5-7:41
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:6:5-7:41
+MERGED from [io.realm:realm-android-library:2.2.0] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\io.realm\realm-android-library\2.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.2\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-vector-drawable:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:7:9-38
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:7:9-38
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:6:15-41
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:6:15-41
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
+		INJECTED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:8:5-32:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Guiguy\Desktop\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:8:5-32:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] P:\LP_DAM\ANDROID\TD5_PROJET\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:12:9-35
 	android:allowBackup
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.lg403756.td5_projet.MainActivity
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.example.lg403756.td5_projet.GameActivity
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:23:9-25:20
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:23:9-25:20
 	android:name
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:24:13-41
 activity#com.example.lg403756.td5_projet.MainActivity2
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:26:9-28:20
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:26:9-28:20
 	android:name
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:27:13-42
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:27:13-42
 activity#com.example.lg403756.td5_projet.ScoreActivity
-ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:29:9-31:20
+ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:29:9-31:20
 	android:name
-		ADDED from C:\Users\Guiguy\Desktop\TD5_PROJET\app\src\main\AndroidManifest.xml:30:13-42
+		ADDED from P:\LP_DAM\ANDROID\TD5_PROJET\app\src\main\AndroidManifest.xml:30:13-42
